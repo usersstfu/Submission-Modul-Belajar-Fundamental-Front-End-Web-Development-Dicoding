@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: brown;
+    font-family: sans-serif;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 32px auto;
+}
+
+meals-list {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+}
+
+/*Foooter*/
+.footer {
+    background-color: red;
+    color: rgb(245, 236, 236);
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+  }
+  
+  .footer__title {
+    font-size: 2rem;
+    padding-bottom: 1%;
+    margin-bottom: var(--mb-4);
+  }
+  
+  .footer__social {
+    margin-bottom: var(--mb-4);
+  }
+  
+  .footer__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2%;
+    margin: 0 var(--mb-2);
+  }
+  
+  .footer__copy {
+    padding-top: 1%;
+    font-size: var(--smaller-font-size);
+  }
+  
